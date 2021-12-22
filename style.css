@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+    .section__login {
+        display: none;
+    }
+}
+
+.name__login {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.texT {
+    font-family: 'Poppins', sans-serif;
+}
+
+.active {
+    color: white;
+    background: #9E896A;
+}
+
+.staticText {
+    color: #9E896A;
+    background: #F8EDDD; 
+}
+
+.password {
+	position: relative;
+}
+
+.password-control {
+	position: absolute;
+	top: 42px;
+	right: 15px;
+	display: inline-block;
+	background: url(./assets/invisible\ 1.png) 0 0 no-repeat;
+}
+
+.password-control.view {
+	background: url(./assets/view.svg) 0 0 no-repeat;
+}
+
