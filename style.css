@@ -15,7 +15,7 @@
 
 .active {
     color: white;
-    background: #9E896A;
+    background: #9E896A !important;
 }
 
 .staticText {
